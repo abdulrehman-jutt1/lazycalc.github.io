@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contact US</title>
+	<link rel="icon" type="image/x-icon" href="img.6.png">
+	<link rel="stylesheet" type="text/css" href="contact.css">
+	
+
+
+
+	
+</head>
+<body>
+	<div class="go">
+		<a href="calculator.html" id="home1"><h1>Go back to Home</h1></a>
+		
+
+
+	</div>
+
+	<div>
+		<h1 id="h1">For Contact Us Just click on link</h1>
+		
+        <a href="#form"><h1>Contact US</h1></a>
+
+	</div>
+
+
+	<h1 class="text">
+		Visit Our Site
+
+	</h1>
+	<h2> To Meet Your Needs</h2>
+	<h3>This is my first site</h3>
+	<br> <br>
+
+	<p id="p">Lorem ipsum dolor sit amet, <b>consectetur</b> adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<br>
+
+
+	<img src="img.9.jpg"  width="70%"  height="500px" class="immg">
+
+	<hr width="70%">
+
+
+
+	<br>
+	<h2 class="there">Threr are some examples of site</h2>
+
+
+	<ol>
+		<li>Best site</li>
+		<li>Amazing!</li>
+		<li>Good!</li>
+
+
+
+
+
+	</ol>
+<br>
+
+<h2>Instructions</h2>
+<ul>
+	<li>Visit site</li>
+    <li>To learn</li>
+    <li>Contact us</li>
+
+
+
+
+</ul>
+
+<div class="form" id="form">
+	<h1>Contact Form</h1>
+	<form action="#" onsubmit="return validation()">
+    <label for="Full Name">Full Name</label>
+	<input type="text" name="Full name" placeholder="Full Name" id="fullname"  >
+	<span id="full">
+		
+	</span>
+	<br><br>
+	<label for="Father Name">Father Name</label>
+	<input type="text" name="Father name" placeholder="Father Name" id="fathername"  >
+	<span id="father">
+		
+	</span>
+	<br><br>
+	<label for="Email">Email</label>
+	<input type="email" name="email" placeholder="Email adress" id="email"  >
+	<span id="emailadress">
+		
+	</span>
+	<br><br>
+	<label for="Password">Password</label>
+	<input type="password" name="password" placeholder="Password" id="pass"  >
+	<span id="password">
+		
+	</span>
+	<br><br>
+	<div id="radio">
+	<label for="Male">Male</label>
+	<input type="radio" name="gender"   >
+	
+	
+	<label for="FeMale">Female</label>
+	<input type="radio" name="gender"   >
+	
+</div>
+
+	<br><br>
+	<label for="Select">Select Country</label>
+	<select id="select" >
+		<option>..-select</option>
+		<option>Pakistan</option>
+		<option>India</option>
+		<option>Iran</option>
+		<option>turkey</option>
+		<option>Oman</option>
+		<option>Australia</option>
+	</select>
+	
+	<br><br>
+	<textarea placeholder="Write your issue" id="textarea"></textarea>
+	<span id="text">
+		
+	</span>
+	<br><br>
+	<button onclick="btn()">Send</button>
+</form>
+
+
+</div>
+
+<script type="text/javascript">
+	
+
+
+function validation(){
+
+var fullname=document.getElementById('fullname').value;
+var fathername=document.getElementById('fathername').value;
+var emailadress=document.getElementById('email').value;
+var password=document.getElementById('pass').value;
+
+var textarea=document.getElementById('textarea').value;
+
+
+
+
+
+
+if (fullname  == "") {
+
+	document.getElementById('full').innerHTML="*Please Fill Your Name";
+
+	return false;
+}
+
+
+if (fathername  == "") {
+
+	document.getElementById('father').innerHTML="*Please Fill Father Name";
+
+	return false;
+}
+
+if (emailadress  == "") {
+
+	document.getElementById('emailadress').innerHTML="*Please Fill email";
+
+	return false;
+}
+
+if (password == "") {
+
+	document.getElementById('password').innerHTML="*Please Fill password";
+
+	return false;
+}
+
+
+
+if (textarea  == "") {
+
+	document.getElementById('text').innerHTML="*Please write message";
+
+	return false;
+}
+
+
+}
+
+
+
+
+
+
+
+
+</script>
+
+
+
+</body>
+</html>

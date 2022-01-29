@@ -1,0 +1,16 @@
+.go a{
+       text-align: center;
+       color: red;
+       text-decoration: none;
+    
+
+}
+.go a:hover
+{
+	color: blue;
+}
+.About h1{
+
+	text-align: center;
+	color: black;
+}

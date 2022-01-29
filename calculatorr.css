@@ -1,0 +1,392 @@
+.calculator
+{
+	text-align: center;
+}
+.form2
+{
+float: left;
+background-color: silver;
+width: 40%;
+margin-left: 30%;
+border-radius: 20px;
+border: 2px solid green;
+
+}
+
+#form1
+{
+
+ 
+	text-align: center;
+   height: 300px;
+ }
+  
+
+input{
+
+	border: 4px solid red;
+}
+
+#text
+{
+border: 4px solid blue;
+border-radius: 10px;
+width: 220px;
+margin-top: 10px;
+}
+
+.b1
+{
+  background-color: blue;
+  width: 130px;
+
+
+}
+.b1:hover
+{
+
+  background-color: green;
+}
+
+.b2
+{
+ background-color: blue;
+  width: 130px;
+
+
+}
+.b2:hover
+{
+
+  background-color: green;
+}
+
+.b3
+{
+
+	background-color: blue;
+  width: 130px;
+}
+.b3:hover
+{
+
+  background-color: green;
+}
+
+.b4
+{
+
+	background-color: blue;
+  width: 130px;
+}
+
+.b4:hover
+{
+
+  background-color: green;
+}
+
+.b5
+{
+
+
+	background-color: blue;
+  width: 130px;
+}
+
+.b5:hover
+{
+
+  background-color: green;
+}
+
+.b6
+{
+
+	background-color: blue;
+  width: 130px;
+}
+
+.b6:hover
+{
+
+  background-color: green;
+}
+
+.b7
+{
+
+
+	background-color: blue;
+  width: 130px;
+}
+
+.b7:hover
+{
+
+  background-color: green;
+}
+
+.b8
+{
+
+	background-color: blue;
+  width: 130px;
+}
+
+.b8:hover
+{
+
+  background-color: green;
+}
+
+.b9
+{
+	background-color: blue;
+  width: 130px;
+}
+.b9:hover
+{
+
+  background-color: green;
+}
+.bi
+{
+
+	background-color: blue;
+  width: 130px;
+}
+.bi:hover
+{
+
+  background-color: green;
+}
+
+.b-
+{
+	background-color: blue;
+  width: 130px;
+}
+
+.b-:hover
+{
+
+  background-color: green;
+}
+.bn
+{
+	background-color: blue;
+  width: 130px;
+}
+.bn:hover
+{
+
+  background-color: green;
+}
+.bl
+{
+	background-color: blue;
+  width: 130px;
+}
+
+.bl:hover
+{
+
+  background-color: green;
+}
+
+.b0
+{
+
+	background-color: blue;
+  width: 130px;
+}
+
+.b0:hover
+{
+
+  background-color: green;
+}
+.bp
+{
+
+	background-color: blue;
+  width: 130px;
+}
+.bp:hover
+{
+
+  background-color: green;
+}
+.bclear
+{
+
+	background-color: red;
+  width: 70px;
+  border: 4px solid blue;
+}
+
+.bclear:hover
+{
+
+  background-color: green;
+
+}
+
+.go a{
+
+  text-align: center;
+  text-decoration: none;
+  color: red;
+
+}
+.go a:hover 
+{color: blue;
+
+}
+
+@media only screen and (max-width: 700px)
+{
+   .form2
+   {
+
+    width: 70%;
+    margin-right: 200px;
+   }
+.b1
+{
+  background-color: blue;
+  width: 70px;
+
+
+}
+
+
+.b2
+{
+ background-color: blue;
+  width: 70px;
+
+
+}
+
+
+.b3
+{
+
+  background-color: blue;
+  width: 70px;
+}
+
+.b4
+{
+
+  background-color: blue;
+  width: 70px;
+}
+
+
+.b5
+{
+
+
+  background-color: blue;
+  width: 70px;
+}
+
+.b6
+{
+
+  background-color: blue;
+  width: 70px;
+}
+
+
+.b7
+{
+
+
+  background-color: blue;
+  width: 70px;
+}
+
+
+
+.b8
+{
+
+  background-color: blue;
+  width: 70px;
+}
+
+
+
+.b9
+{
+  background-color: blue;
+  width: 70px;
+}
+
+.bi
+{
+
+  background-color: blue;
+  width: 70px;
+}
+
+.b-
+{
+  background-color: blue;
+  width: 70px;
+}
+
+
+.bn
+{
+  background-color: blue;
+  width: 70px;
+}
+
+.bl
+{
+  background-color: blue;
+  width: 70px;
+}
+
+
+.b0
+{
+
+  background-color: blue;
+  width: 70px;
+}
+
+
+.bp
+{
+
+  background-color: blue;
+  width: 70px;
+}
+
+.bclear
+{
+
+  background-color: red;
+  width: 50px;
+  border: 4px solid blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

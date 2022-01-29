@@ -1,0 +1,96 @@
+.go a{
+
+	text-align: center;
+	text-decoration: none;
+	color: red;
+
+}
+.go a:hover 
+{color: blue;
+
+}
+.text
+{
+
+background-color: yellow;
+background: linear-gradient(pink,yellow,green);
+width: 20%;
+
+
+
+
+}
+
+.text:hover
+{
+	background-color: yellow;
+   background: linear-gradient(pink,red,gray);
+
+
+
+}
+.form
+{
+	text-align: center;
+	background-color: yellow;
+}
+.form h1
+{color: white;
+	background-color: black;
+	border: solid black;
+	border-radius: 5px;
+	border-style: dashed;
+	width: 120px;
+	margin-left: 580px;
+}
+#full{
+
+	color: red;
+}
+
+
+@media only screen and (max-width: 700px)
+{
+
+.go 
+{
+   margin-left: 0px;
+   margin-right: 60%;
+}
+
+.immg
+{
+	width: 50%;
+	height: 20%;
+
+}
+
+
+#form
+{
+   width: 60%;
+   height: 20%;
+
+}
+
+.there
+{
+   width: 50%;
+
+}
+
+#p
+{
+	width: 55%;
+}
+#h1
+{
+   width: 50%;
+
+}
+
+
+
+
+
+}
